@@ -1,10 +1,5 @@
--- Safe readability pass: decoded strings preserved, risky field/property renames reverted.
--- Function names were renamed to describe their job; behavior, strings, config keys, and APIs were left intact.
--- This version favors original functionality over aggressive renaming.
-
 local charFromBytes = string.char
 local concatTable = table.concat
--- Decoded string table removed for readability. String lookups were inlined.
 
 if type(getgenv) == "function" then
     local globalEnv = getgenv()
