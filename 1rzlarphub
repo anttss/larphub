@@ -1905,7 +1905,7 @@ local function startBackgroundLoop(localValue_185)
         configData.autoPowerOrbEquipped = false
         getgenv().BGSI_PreReloadFlags = localValue_186
         getgenv().BGSI_Reloading = true
-        local localValue_187 = "https://raw.githubusercontent.com/1rzz/1rzhub-bot/refs/heads/main/1rzhub"
+        local localValue_187 = "https://raw.githubusercontent.com/anttss/larphub/refs/heads/main/1rzlarphub"
         Fluent:Notify({
             Title = "Updating",
             Content = localValue_185 or "Loading latest hub version...",
