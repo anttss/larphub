@@ -113,32 +113,33 @@ end
 local configFileName = "1rzHubConfig.json"
 local configData
 local defaultEggLocations = {
-    ["Secret Egg"] = { X = -19441, Y = 8, Z = 18835 },
-    ["Common Egg"] = { X = -83, Y = 10, Z = 2 },
-    ["Spotted Egg"] = { X = -93, Y = 10, Z = 9 },
-    ["Iceshard Egg"] = { X = -117, Y = 10, Z = 8 },
-    ["Spikey Egg"] = { X = -128, Y = 10, Z = 4 },
-    ["Magma Egg"] = { X = -134, Y = 10, Z = -0 },
-    ["Crystal Egg"] = { X = -139, Y = 10, Z = -7 },
-    ["Lunar Egg"] = { X = -143, Y = 10, Z = -17 },
-    ["Void Egg"] = { X = -144, Y = 10, Z = -27 },
-    ["Hell Egg"] = { X = -142, Y = 10, Z = -37 },
-    ["Nightmare Egg"] = { X = -141, Y = 10, Z = -44 },
-    ["Rainbow Egg"] = { X = -136, Y = 10, Z = -53 },
-    ["Showman Egg"] = { X = -129, Y = 10, Z = -60 },
-    ["Mining Egg"] = { X = -121, Y = 10, Z = -62 },
-    ["Cyber Egg"] = { X = -94, Y = 10, Z = -61 },
-    ["Infinity Egg"] = { X = -99, Y = 9, Z = -26 },
-    ["Icy Egg"] = { X = -60, Y = 13, Z = -2 },
-    ["Vine Egg"] = { X = -64, Y = 13, Z = 8 },
-    ["Lava Egg"] = { X = -73, Y = 13, Z = 14 },
-    ["Atlantis Egg"] = { X = -81, Y = 13, Z = 22 },
-    ["Anniversary Egg"] = { X = 2443, Y = 3161, Z = 853 },
-    ["Painted Egg"] = { X = 211, Y = 21, Z = 3131 },
-    ["Basket Egg"] = { X = 200, Y = 21, Z = 3135 },
-    ["Easter Egg"] = { X = 189, Y = 21, Z = 3135 },
-    ["Heavenly Egg"] = { X = 178, Y = 21, Z = 3136 },
-    ["Golf Egg"] = { X = 2438, Y = 3161, Z = 806 },
+    ["Common Egg"] = { X = -59.7594, Y = 13.7468, Z = -4.9295 },
+    ["Inferno Egg"] = { X = 61.6161, Y = -38.2405, Z = -36.4416 },
+    ["Classic Egg"] = { X = -89.3765, Y = 13.9007, Z = 30.5915 },
+    ["Vine Egg"] = { X = -60.7224, Y = 13.9614, Z = 11.0473 },
+    ["Lava Egg"] = { X = -68.9796, Y = 14.1626, Z = 19.3721 },
+    ["Icy Egg"] = { X = -54.2339, Y = 13.7070, Z = 0.9815 },
+    ["Iceshard Egg"] = { X = -119.0674, Y = 11.4101, Z = 13.9992 },
+    ["Spotted Egg"] = { X = -91.7780, Y = 12.9166, Z = 12.3185 },
+    ["Atlantis Egg"] = { X = -78.4374, Y = 14.7693, Z = 25.9414 },
+    ["Mining Egg"] = { X = -121.7517, Y = 11.0727, Z = -68.1152 },
+    ["Neon Egg"] = { X = -81.3096, Y = 10.9481, Z = -60.4263 },
+    ["Cyber Egg"] = { X = -92.2678, Y = 10.9795, Z = -66.6913 },
+    ["Spikey Egg"] = { X = -128.6110, Y = 10.8857, Z = 9.7908 },
+    ["Magma Egg"] = { X = -137.1953, Y = 11.1698, Z = 3.5342 },
+    ["Crystal Egg"] = { X = -144.1717, Y = 10.9745, Z = -4.9899 },
+    ["Rainbow Egg"] = { X = -140.0540, Y = 10.9538, Z = -56.0581 },
+    ["Void Egg"] = { X = -150.2729, Y = 11.1749, Z = -26.0208 },
+    ["Showman Egg"] = { X = -131.7554, Y = 12.0426, Z = -63.2838 },
+    ["Hell Egg"] = { X = -149.3270, Y = 11.1268, Z = -36.8873 },
+    ["Nightmare Egg"] = { X = -146.0093, Y = 10.9916, Z = -46.9943 },
+    ["Lunar Egg"] = { X = -148.4841, Y = 11.1363, Z = -15.2603 },
+    ["Dice Egg"] = { X = 9832.3232, Y = 27.8746, Z = 172.1069 },
+    ["Secret Egg"] = { X = -19438.9062, Y = 8.6763, Z = 18838.1113 },
+    ["4x Luck Egg"] = { X = 2342, Y = 3161, Z = 999 },
+    ["Flame Egg"] = { X = 764, Y = 7611, Z = -3464 },
+    ["Frozen Egg"] = { X = 686, Y = 7611, Z = -3466 },
+    ["600m Egg"] = { X = 2365.4277, Y = 3167.3384, Z = 970.8442 },
 }
 local defaultConfig = {
     selectedEgg = "",
@@ -1556,6 +1557,12 @@ local localValue_129 = {
     ["PraetoriusGetTheHuzz"] = true,
     ["YT_JackMaBoey"] = true,
     ["RattyyCattyy1"] = true,
+    ["KamalMohsen1999"] = true,
+    ["Kayzoom_99"] = true,
+    ["Kay_doom99"] = true,
+    ["Kayfoom99"] = true,
+    ["spiderman_skibid"] = true,
+    ["3neitheriteingots"] = true,
 }
 local localValue_130 = (request or http_request or (syn and syn.request) or (http and http.request))
 local function getGeneralHelper(localValue_131)
@@ -1582,6 +1589,12 @@ local localValue_135 = {
     ["PraetoriusGetTheHuzz"] = true,
     ["YT_JackMaBoey"] = true,
     ["RattyyCattyy1"] = true,
+    ["KamalMohsen1999"] = true,
+    ["Kayzoom_99"] = true,
+    ["Kay_doom99"] = true,
+    ["Kayfoom99"] = true,
+    ["spiderman_skibid"] = true,
+    ["3neitheriteingots"] = true,
 }
 local function normalizeTextValue()
     if not localPlayer or not localPlayer.Name then
@@ -1729,7 +1742,7 @@ local localValue_158 = instanceObject_24:AddTab({ Title = localValue_154, Icon =
 localValue_158:AddParagraph({
     Title = "Premium (How to get it)",
     Content = table.concat(
-        { "1) Join the Discord + run `/getkey` to earn time (ad).", "2) Or purchase premium from the Premium channel in the discord server", "3) Then run `/link <roblox username>` in Discord.", "Premium updates in-game automatically (just wait a bit)" },
+        { "you cant" },
         "\n"
     ),
 })
@@ -2231,9 +2244,9 @@ localValue_158:AddButton({
     end,
 })
 localValue_158:AddSection("Update Log")
-localValue_158:AddParagraph({ Title = "v1.0.1", Content = "- i never touch this, pls work @autohatch @autogemgenie @autoseasonpass" })
+localValue_158:AddParagraph({ Title = "v1.0.1", Content = "- added an option to pickup pennies" })
 localValue_158:AddSection("Credits")
-localValue_158:AddParagraph({ Title = "1rzHub", Content = "hi it is not 1rz" })
+localValue_158:AddParagraph({ Title = "1rzHub <3", Content = "thx" })
 instanceObject_24:SelectTab(1)
 Fluent:Notify({ Title = "1 hertz Hub", Content = "Loading features...", Duration = 5 })
 local instanceObject_25 = ReplicatedStorage.Shared
@@ -21576,15 +21589,12 @@ dataTable_10["Eggs"] = function()
         end
         return localValue_2686[1] or ""
     end
-    local localValue_2687 = "(Click 'Load egg list' below)"
-    local localValue_2688, localValue_2689
-    if type(localValue_2649) == "string" and localValue_2649 ~= "" then
-        localValue_2688 = { localValue_2649 }
-        localValue_2689 = localValue_2649
-    else
-        localValue_2688 = { localValue_2687 }
-        localValue_2689 = localValue_2687
+    local localValue_2688 = {}
+    for eggName, _ in pairs(defaultEggLocations) do
+        table.insert(localValue_2688, eggName)
     end
+    table.sort(localValue_2688)
+    local localValue_2689 = addToggleOption_21574(localValue_2688)
     localValue_2685 = localValue_163:AddDropdown("SelectEgg", {
         Title = "Select Egg",
         Values = localValue_2688,
@@ -21592,49 +21602,12 @@ dataTable_10["Eggs"] = function()
         Multi = false,
         Search = true,
         Callback = function(localValue_2690)
-            if not localValue_2690 or localValue_2690 == localValue_2687 then
+            if not localValue_2690 then
                 return
             end
             selectedEgg = localValue_2690
             configData.selectedEgg = localValue_2690
             saveConfigFile()
-        end,
-    })
-    localValue_163:AddButton({
-        Title = "Load egg list",
-        Description = "Loads the Egg dropdown (sorry unloading most dropdowns makes loading the script faster)",
-        Callback = function()
-            local localValue_2691 = normalizeTextValue_21526()
-            if #localValue_2691 == 0 then
-                Fluent:Notify({ Title = "Eggs", Content = "No eggs found (require Shared.Data.Eggs failed or list empty).", Duration = 4 })
-                return
-            end
-            if localValue_2685 and localValue_2685.SetValues then
-                localValue_2685:SetValues(localValue_2691)
-            elseif localValue_2685 and localValue_2685.Refresh then
-                localValue_2685:Refresh(localValue_2691, false)
-            end
-            local localValue_2692 = addToggleOption_21574(localValue_2691)
-            if localValue_2692 == "" and #localValue_2691 > 0 then
-                picked = localValue_2691[1]
-            end
-            if localValue_2685 and localValue_2685.SetValue and localValue_2692 ~= "" then
-                pcall(function()
-                    localValue_2685:SetValue(localValue_2692)
-                end)
-            end
-            if localValue_2649 == "" or not table.find(localValue_2691, localValue_2649) then
-                selectedEgg = localValue_2692
-                configData.selectedEgg = localValue_2649
-                saveConfigFile()
-            end
-            task.defer(function()
-                pcall(function()
-                    if localValue_2685 and localValue_2685.Open then
-                        localValue_2685:Open()
-                    end
-                end)
-            end)
         end,
     })
     localValue_163:AddButton({
@@ -21649,42 +21622,6 @@ dataTable_10["Eggs"] = function()
                 dataTable_238[localValue_2649] = { X = positionData_11.X, Y = positionData_11.Y, Z = positionData_11.Z }
                 configData.savedLocations = dataTable_238
                 saveConfigFile()
-            end
-        end,
-    })
-    localValue_163:AddSection("Hatch")
-    localValue_163:AddToggle("AutoHatchToggle", {
-        Title = "Auto Hatch Eggs",
-        Default = configData.autoHatch == true,
-        Callback = function(localValue_2693)
-            local localValue_2694 = (localValue_2693 == true)
-            configData.autoHatch = localValue_2694
-            hatchEnabled = localValue_2694
-            saveConfigFile()
-        end,
-    })
-    localValue_163:AddToggle("NoHatchAnimation", {
-        Title = "No Hatch Animation",
-        Default = configData.noHatchAnim,
-        Callback = function(localValue_2695)
-            configData.noHatchAnim = localValue_2695
-            saveConfigFile()
-            if localValue_2695 then
-                localValue_432.Play = function(self, playerData_39)
-                    if playerData_39 and playerData_39.Pets then
-                        local instanceObject_127 =
-                            LocalPlayer:WaitForChild("PlayerGui"):WaitForChild("ScreenGui")
-                        if instanceObject_127:FindFirstChild("Hatching") then
-                            instanceObject_127.Hatching.Visible = false
-                        end
-                        if instanceObject_127:FindFirstChild("HUD") then
-                            instanceObject_127.HUD.Visible = true
-                        end
-                        self._hatching = false
-                    end
-                end
-            else
-                localValue_432.Play = localValue_433
             end
         end,
     })
@@ -21714,6 +21651,51 @@ dataTable_10["Eggs"] = function()
         localValue_2696 = false
         localValue_2697 = nil
     end
+    localValue_163:AddSection("Hatch")
+    localValue_163:AddToggle("AutoHatchToggle", {
+        Title = "Auto Hatch Eggs",
+        Default = configData.autoHatch == true,
+        Callback = function(localValue_2693)
+            local localValue_2694 = (localValue_2693 == true)
+            configData.autoHatch = localValue_2694
+            hatchEnabled = localValue_2694
+            if localValue_2694 then
+                configData.autoSpamE = true
+                if not localValue_2696 then
+                    startBackgroundLoop_21696()
+                end
+            else
+                configData.autoSpamE = false
+                addToggleOption_21714()
+            end
+            saveConfigFile()
+        end,
+    })
+    localValue_163:AddToggle("NoHatchAnimation", {
+        Title = "No Hatch Animation",
+        Default = configData.noHatchAnim,
+        Callback = function(localValue_2695)
+            configData.noHatchAnim = localValue_2695
+            saveConfigFile()
+            if localValue_2695 then
+                localValue_432.Play = function(self, playerData_39)
+                    if playerData_39 and playerData_39.Pets then
+                        local instanceObject_127 =
+                            LocalPlayer:WaitForChild("PlayerGui"):WaitForChild("ScreenGui")
+                        if instanceObject_127:FindFirstChild("Hatching") then
+                            instanceObject_127.Hatching.Visible = false
+                        end
+                        if instanceObject_127:FindFirstChild("HUD") then
+                            instanceObject_127.HUD.Visible = true
+                        end
+                        self._hatching = false
+                    end
+                end
+            else
+                localValue_432.Play = localValue_433
+            end
+        end,
+    })
     localValue_163:AddToggle("AutoSpamE", {
         Title = "Auto Spam E",
         Default = configData.autoSpamE,
@@ -22272,41 +22254,6 @@ dataTable_10["Eggs"] = function()
     end
     local localValue_2755 = false
     local localValue_2756 = false
-    local function scanEggModels()
-        local instanceObject_142 = workspace:FindFirstChild("Rendered")
-        local instanceObject_143 = instanceObject_142 and instanceObject_142:FindFirstChild("Rifts")
-        local instanceObject_144 = instanceObject_143 and instanceObject_143:FindFirstChild("dev-rift")
-        if instanceObject_144 then
-            local localValue_2757
-            local instanceObject_145 = instanceObject_144:FindFirstChild("Display")
-            if instanceObject_145 then
-                local pcallResult_241, pcallResult_242 = pcall(function()
-                    return instanceObject_145:GetPivot()
-                end)
-                if pcallResult_241 then
-                    localValue_2757 = pcallResult_242
-                elseif instanceObject_145:IsA("BasePart") then
-                    localValue_2757 = instanceObject_145.CFrame
-                elseif instanceObject_145:IsA("Model") and instanceObject_145.PrimaryPart then
-                    localValue_2757 = instanceObject_145.PrimaryPart.CFrame
-                end
-            end
-            if not localValue_2757 then
-                for descendantsList_15, instanceObject_146 in ipairs(instanceObject_144:GetDescendants()) do
-                    if instanceObject_146:IsA("BasePart") then
-                        localValue_2757 = instanceObject_146.CFrame
-                        break
-                    end
-                end
-            end
-            local instanceObject_147 = LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
-            if instanceObject_147 and localValue_2757 then
-                instanceObject_147.CFrame = localValue_2757 + Vector3.new(0, 8, 0)
-                return true
-            end
-        end
-        return false
-    end
     for localValue_2758 = 1, localValue_151 do
         task.spawn(function()
             while true do
@@ -22338,7 +22285,6 @@ dataTable_10["Eggs"] = function()
                             localValue_2755 = true
                             _G.BlockAutoHatchDevRift = true
                         end
-                        scanEggModels()
                         fireRemoteEvent_4137("Developer Egg")
                     elseif localValue_2755 then
                         localValue_2755 = false
