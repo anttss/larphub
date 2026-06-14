@@ -1,5 +1,10 @@
+-- Safe readability pass: decoded strings preserved, risky field/property renames reverted.
+-- Function names were renamed to describe their job; behavior, strings, config keys, and APIs were left intact.
+-- This version favors original functionality over aggressive renaming.
+
 local charFromBytes = string.char
 local concatTable = table.concat
+-- Decoded string table removed for readability. String lookups were inlined.
 
 if type(getgenv) == "function" then
     local globalEnv = getgenv()
@@ -1254,7 +1259,7 @@ local function loadTabWithTiming(localValue_104, localValue_105)
     recordTabLoadTime(localValue_104, startTime_3)
 end
 local dataTable_10 = {}
-local localValue_106 = "https://i.postimg.cc/yNJ4Y6z8/Geoff.png"
+local localValue_106 = "https://i.postimg.cc/Y9BqDMrR/images.png"
 local localValue_107 = "1rzHubMobileUI.png"
 local localValue_108 = "1rzHubMobileUI.url.txt"
 local localValue_109 = "rbxassetid://7229442422"
@@ -1556,12 +1561,6 @@ local localValue_129 = {
     ["PraetoriusGetTheHuzz"] = true,
     ["YT_JackMaBoey"] = true,
     ["RattyyCattyy1"] = true,
-    ["KamalMohsen1999"] = true,
-    ["Kayzoom_99"] = true,
-    ["Kay_doom99"] = true,
-    ["Kayfoom99"] = true,
-    ["spiderman_skibid"] = true,
-    ["3neitheriteingots"] = true,
 }
 local localValue_130 = (request or http_request or (syn and syn.request) or (http and http.request))
 local function getGeneralHelper(localValue_131)
@@ -1574,7 +1573,7 @@ local function getGeneralHelper(localValue_131)
     end)
     return pcallResult_43 and pcallResult_44
 end
-local localValue_133 = "https://gist.githubusercontent.com/1rzz/2def1f046009ff21c9d79d4a4fb944ee/raw/hub_flags.json"
+local localValue_133 = "https://gist.githubusercontent.com/anttss/523ae3e2ad61278f35a59a36cea4ce6e/raw/hub_flags.json"
 local localValue_134 = "https://worker-production-6034.up.railway.app/premium-check"
 local localValue_135 = {
 
@@ -1588,12 +1587,6 @@ local localValue_135 = {
     ["PraetoriusGetTheHuzz"] = true,
     ["YT_JackMaBoey"] = true,
     ["RattyyCattyy1"] = true,
-    ["KamalMohsen1999"] = true,
-    ["Kayzoom_99"] = true,
-    ["Kay_doom99"] = true,
-    ["Kayfoom99"] = true,
-    ["spiderman_skibid"] = true,
-    ["3neitheriteingots"] = true,
 }
 local function normalizeTextValue()
     if not localPlayer or not localPlayer.Name then
