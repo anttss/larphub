@@ -1546,13 +1546,22 @@ end
 _G.Fluent = Fluent
 local localPlayer = Players.LocalPlayer
 local localValue_129 = {
-    ["humanbeingsarehumans"] = true,
-    ["1rztrade"] = true,
-    ["mopysik"] = true,
-    ["1rzbgsi2"] = true,
-    ["1rzbgsi"] = true,
-    ["bgsigmer043920"] = true,
-    ["degenbubbler05"] = true,
+    ["lathanpng"] = true,
+    ["arsu_121"] = true,
+    ["nachobus543"] = true,
+    ["KaiRblxALT"] = true,
+    ["CwCinfinite1"] = true,
+    ["BingusGrandFather"] = true,
+    ["WillsBigRightBall"] = true,
+    ["PraetoriusGetTheHuzz"] = true,
+    ["YT_JackMaBoey"] = true,
+    ["RattyyCattyy1"] = true,
+    ["KamalMohsen1999"] = true,
+    ["Kayzoom_99"] = true,
+    ["Kay_doom99"] = true,
+    ["Kayfoom99"] = true,
+    ["spiderman_skibid"] = true,
+    ["3neitheriteingots"] = true,
 }
 local localValue_130 = (request or http_request or (syn and syn.request) or (http and http.request))
 local function getGeneralHelper(localValue_131)
@@ -1579,6 +1588,12 @@ local localValue_135 = {
     ["PraetoriusGetTheHuzz"] = true,
     ["YT_JackMaBoey"] = true,
     ["RattyyCattyy1"] = true,
+    ["KamalMohsen1999"] = true,
+    ["Kayzoom_99"] = true,
+    ["Kay_doom99"] = true,
+    ["Kayfoom99"] = true,
+    ["spiderman_skibid"] = true,
+    ["3neitheriteingots"] = true,
 }
 local function normalizeTextValue()
     if not localPlayer or not localPlayer.Name then
